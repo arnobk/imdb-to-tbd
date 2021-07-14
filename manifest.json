@@ -1,0 +1,14 @@
+{
+    "name": "IMDB to TorrentBD",
+    "description": "An chrome extension which adds a link to TBD of certain movie/show!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [{
+        "matches": ["https://www.imdb.com/title/*"],
+        "js": ["content-script.js"],
+        "css": ["content-css.css"]
+    }]
+}

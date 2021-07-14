@@ -1,0 +1,26 @@
+.tbd-button {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    border-color: white;
+    padding: 5px 10px;
+    transition: 0.8s;
+}
+
+.tbd-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.tbd-link {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.i2t-icon {
+    height: 16px;
+    margin: auto auto;
+}
